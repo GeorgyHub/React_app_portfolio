@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Map = () => {
-    //map
+    <h2>Map</h2>
 }
 
 export default Map;
