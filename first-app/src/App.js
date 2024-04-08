@@ -1,26 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
+import Map from './libraries/map.js';
+import Header from './Header.js';
 
 const App = () => {
   return (
     <div className="App">
       <Header />
       <h1>Hello, world!</h1>
+      <Map />
     </div>
-  );
-}
-
-const Header = () => {
-  return(
-    <header>
-      <div class="header_menu">
-        <ul class="header_menu_link">
-          <li>
-            <a href=''>Header</a>
-          </li>
-        </ul>
-      </div>
-    </header>
   );
 }
 
