@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Map from './libraries/map.js';
 import Header from './Header.js';
+import Footer from './Footer.js';
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Header />
       <h1>Hello, world!</h1>
       <Map />
+      <Footer />
     </div>
   );
 }
