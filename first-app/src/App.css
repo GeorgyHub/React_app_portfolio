@@ -9,18 +9,4 @@
   grid-template-columns: 2fr 10fr;
 }
 
-.Header{
-  grid-area: h;
-  background-color: green;
-}
-.Header img{
-  width: 56px;
-}
-.nav{
-  grid-area: n;
-  background-color: green;
-}
-.content{
-  grid-area: c;
-  background-color: grey;
-}
+
